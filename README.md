@@ -1,20 +1,82 @@
-<<<<<<< HEAD
-# React + Vite
+# ScribeAI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered technical interview preparation coach to help you master DSA, OOP, systems design, and API questions with live grading.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Interactive Practice**: Get questions across multiple categories
+- **Live Grading**: Receive instant feedback on your solutions
+- **AI Coach**: Personalized guidance and explanations
+- **Comprehensive Topics**: DSA, OOP, Systems Design, APIs, and more
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- **Frontend**: React 19 + Vite
+- **Styling**: CSS
+- **Build Tool**: Vite
+- **Linting**: ESLint
 
-## Expanding the ESLint configuration
+## 📋 Prerequisites
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-=======
-# scribe-AI
->>>>>>> 5326f7b2f1ef3e8e39c58884c48546546e93d341
+- Node.js (v16 or higher)
+- npm or yarn
+
+## ⚙️ Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/mi-vaishnavi/scribe-AI.git
+cd scribe-AI
+```
+
+2. Install dependencies:
+```bash
+npm install
+```
+
+## 🏃 Getting Started
+
+### Development
+```bash
+npm run dev
+```
+The app will be available at `http://localhost:5173`
+
+### Build for Production
+```bash
+npm run build
+```
+
+### Preview Production Build
+```bash
+npm run preview
+```
+
+### Lint Code
+```bash
+npm run lint
+```
+
+## 📂 Project Structure
+
+```
+scribe-AI/
+├── src/              # React components and application logic
+├── public/           # Static assets
+├── index.html        # HTML entry point
+├── package.json      # Project dependencies and scripts
+├── vite.config.js    # Vite configuration
+└── eslint.config.js  # ESLint configuration
+```
+
+## 🤝 Contributing
+
+Contributions are welcome! Feel free to open issues or submit pull requests.
+
+## 📝 License
+
+This project is open source and available under the MIT License.
+
+---
+
+**Happy coding! 🎯**
